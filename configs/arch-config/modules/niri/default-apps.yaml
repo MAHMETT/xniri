@@ -1,0 +1,10 @@
+description: "Default Packages for niri module"
+
+packages:
+  - kitty
+  - nemo
+  - fish
+  - fastfetch
+  - zed
+  - nvim
+  - helix

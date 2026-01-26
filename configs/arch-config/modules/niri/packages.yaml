@@ -1,0 +1,11 @@
+descriptions: "Packages needed for niri module"
+
+packages:
+ - niri
+ - xdg-desktop-portal-gnome
+ - fuzzel
+ - alacritty
+ - ly
+ - matugen
+
+

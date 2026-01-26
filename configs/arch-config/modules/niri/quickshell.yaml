@@ -1,0 +1,6 @@
+description: "Quickshells for Niri Config"
+
+packages:
+  - quickshell-git
+  - noctalia-shell-git
+
