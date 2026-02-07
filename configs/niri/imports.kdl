@@ -1,0 +1,8 @@
+include "./startup.kdl"
+include "./input.kdl"
+include "./monitor.kdl"
+include "./layout.kdl"
+include "./window.kdl"
+include "./animation.kdl"
+include "./keybinds.kdl"
+include "./noctalia.kdl"

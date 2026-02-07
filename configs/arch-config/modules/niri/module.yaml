@@ -1,8 +1,6 @@
-description: Host file for Niri Module
+description: "Host file for Niri Module"
 
 packages_files:
   - packages.yaml
   - default-apps.yaml
   - quickshell.yaml
-
-
