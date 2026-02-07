@@ -8,7 +8,7 @@
 // by setting an empty default-column-width.
 window-rule {
     // This regular expression is intentionally made as specific as possible,
-    // since this is the default config, and we want no "false" positives.
+    // since this is the default config, and we want no false positives.
     // You can get away with just app-id="wezterm" if you want.
     match app-id=r#"^org\.wezfurlong\.wezterm$"#
     default-column-width {}
@@ -20,7 +20,7 @@ window-rule {
     // - host Firefox (app-id is "firefox")
     // - Flatpak Firefox (app-id is "org.mozilla.firefox")
     match app-id=r#"firefox$"# title="^Picture-in-Picture$"
-    open-floating "true"
+    open-floating true
 }
 
 window-rule {
@@ -28,13 +28,13 @@ window-rule {
   geometry-corner-radius 20
 
   // Clips window contents to the rounded corner boundaries.
-  clip-to-geometry "true"
+  clip-to-geometry true
 }
 
 // Set the regular wallpaper on the backdrop.
 layer-rule {
   match namespace="^noctalia-wallpaper*"
-  place-within-backdrop "true"
+  place-within-backdrop true
 }
 
 
@@ -61,6 +61,6 @@ overview {
 // (This example rule is commented out with a "/-" in front.)
 /-window-rule {
     geometry-corner-radius 9
-    clip-to-geometry "true"
-    draw-border-with-background "false"
+    clip-to-geometry true
+    draw-border-with-background false
 }
